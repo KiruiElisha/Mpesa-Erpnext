@@ -1,0 +1,79 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-16 15:04:28.072827",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "transaction_number",
+  "amount",
+  "sales_invoice",
+  "transaction_status",
+  "payment_time",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "transaction_number",
+   "fieldtype": "Autocomplete",
+   "label": "Transaction Number"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Data",
+   "label": "Amount"
+  },
+  {
+   "fieldname": "sales_invoice",
+   "fieldtype": "Link",
+   "label": "Sales Invoice",
+   "options": "Sales Invoice"
+  },
+  {
+   "fieldname": "transaction_status",
+   "fieldtype": "Data",
+   "label": "Transaction Status"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Mpesa Transaction",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "payment_time",
+   "fieldtype": "Data",
+   "label": "Payment Time"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-01-16 15:06:25.619790",
+ "modified_by": "Administrator",
+ "module": "Mpesa",
+ "name": "Mpesa Transaction",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,80 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-11 12:16:22.784913",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "consumer_key",
+  "consumer_secret",
+  "online_passkey",
+  "shortcode",
+  "callback_url",
+  "security_credential"
+ ],
+ "fields": [
+  {
+   "fieldname": "consumer_key",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Consumer Key",
+   "reqd": 1
+  },
+  {
+   "fieldname": "consumer_secret",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Consumer Secret",
+   "reqd": 1
+  },
+  {
+   "fieldname": "online_passkey",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Online Passkey",
+   "reqd": 1
+  },
+  {
+   "fieldname": "security_credential",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Security Credential"
+  },
+  {
+   "fieldname": "shortcode",
+   "fieldtype": "Data",
+   "label": "Shortcode",
+   "reqd": 1
+  },
+  {
+   "fieldname": "callback_url",
+   "fieldtype": "Data",
+   "label": "Callback URL"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-01-16 14:21:38.635172",
+ "modified_by": "Administrator",
+ "module": "Mpesa",
+ "name": "Mpesa Integration",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
